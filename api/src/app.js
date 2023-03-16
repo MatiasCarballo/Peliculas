@@ -1,12 +1,11 @@
 const express = require('express');
 const app = express();
 const cookieParser = require('cookie-parser');
-//const routes = require('./Routes/index.js');
+const routes = require('./Router/index.js');
 const cors = require('cors');
 const morgan = require('morgan');
 //require ('dotenv').config();
-
-//require('./connection');
+require('./Db/db.js');//coneccion a archvo db
 
 
 
@@ -22,7 +21,7 @@ app.use((req, res, next) => {
     next();
   });
 
-//app.use("/", routes);
+app.use("/", routes);
 
 
 module.exports = app;
