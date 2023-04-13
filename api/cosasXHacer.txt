@@ -1,18 +1,24 @@
-coneccion con la api/guardar en base de datos -- funcion 
 
-rutas de peliculas / creacion pelicula(admin(para los tontos))
-filtrado 
+HACER 
+NavBar
+footer
 
-conexion con redux
+Home
+redux
+pagina de paliculas y tv 
+detalle de pelicula o tv(teporada)
+detalle de c/d tempotada
+register/ login user
+loading
+404
 
-creacion de home
-detalle de cada pelicula
-pagina de peliculas / series /
 
-
+footer
 
 RUTAS QUE SIRVEN
 info https://developers.themoviedb.org/3/watch-providers/get-available-regions
+
+url para img https://image.tmdb.org/t/p/origin/
 
 
 (pelis mas populares = 756741 result)
