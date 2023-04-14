@@ -30,16 +30,16 @@ https://api.themoviedb.org/3/movie/${id_peli}/videos?api_key=60b24b773be2e21e882
 (tendencia muy buena para hacer el home )
 https://api.themoviedb.org/3/trending/[all,movie, tv, person]/[day,week]?api_key=60b24b773be2e21e882cf24681dc64ee
 
-(search de peliculas, series, tv)
+(search de peliculas, series, tv by name too)
 https://api.themoviedb.org/3/search/multi?api_key=60b24b773be2e21e882cf24681dc64ee&query=${name de busqueda}
 
-(search de peliculas)
+(search de peliculas by name)
 https://api.themoviedb.org/3/search/movie?api_key=60b24b773be2e21e882cf24681dc64ee&language=es-ES&query=${name de peli}
 
-(search de serie)
+(search de serie by name)
 https://api.themoviedb.org/3/search/tv?api_key=60b24b773be2e21e882cf24681dc64ee&query=${name serie}
 
-(detalle de serie_id)
+(detalle de serie_id search movie by id)
 https://api.themoviedb.org/3/tv/${serie_id}?api_key=60b24b773be2e21e882cf24681dc64ee
 
 (detalle de temporada de la serie_id)
