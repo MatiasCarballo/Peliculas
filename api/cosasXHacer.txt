@@ -1,0 +1,49 @@
+
+HACER 
+NavBar
+footer
+
+Home
+redux
+pagina de paliculas y tv 
+detalle de pelicula o tv(teporada)
+detalle de c/d tempotada
+register/ login user
+loading
+404
+
+
+footer
+
+RUTAS QUE SIRVEN
+info https://developers.themoviedb.org/3/watch-providers/get-available-regions
+
+url para img https://image.tmdb.org/t/p/origin/
+
+
+(pelis mas populares = 756741 result)
+https://api.themoviedb.org/3/movie/popular?api_key=60b24b773be2e21e882cf24681dc64ee&language=en-US&page=${numero}
+
+(trailer de id_pelicula (Buscar el json el objeto que tenga "type": "Teaser" ))
+https://api.themoviedb.org/3/movie/${id_peli}/videos?api_key=60b24b773be2e21e882cf24681dc64ee&language=en-US
+
+(tendencia muy buena para hacer el home )
+https://api.themoviedb.org/3/trending/[all,movie, tv, person]/[day,week]?api_key=60b24b773be2e21e882cf24681dc64ee
+
+(search de peliculas, series, tv by name too)
+https://api.themoviedb.org/3/search/multi?api_key=60b24b773be2e21e882cf24681dc64ee&query=${name de busqueda}
+
+(search de peliculas by name)
+https://api.themoviedb.org/3/search/movie?api_key=60b24b773be2e21e882cf24681dc64ee&language=es-ES&query=${name de peli}
+
+(search de serie by name)
+https://api.themoviedb.org/3/search/tv?api_key=60b24b773be2e21e882cf24681dc64ee&query=${name serie}
+
+(detalle de serie_id search movie by id)
+https://api.themoviedb.org/3/tv/${serie_id}?api_key=60b24b773be2e21e882cf24681dc64ee
+
+(detalle de temporada de la serie_id)
+https://api.themoviedb.org/3/tv/${serie_id}/season/${temporada}?api_key=60b24b773be2e21e882cf24681dc64ee
+
+(detalle del episodio de la temporada de la serie_id)
+https://api.themoviedb.org/3/tv/${serie_id}/season/${temporada}/episode/${episodio}?api_key=60b24b773be2e21e882cf24681dc64ee
