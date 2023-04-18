@@ -1,13 +1,13 @@
 import './App.css'
 import Home from './components/home/Home'
-
+import Footer from './components/footer/Footer'
 function App() {
 
 
   return (
     <div className="App">
-      <h1>Jodanse Putos</h1>
       <Home/>
+      <Footer/>
     </div>
   )
 }
